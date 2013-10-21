@@ -1,3 +1,22 @@
+"""
+An assertion lib for `the` to assert basic type.
+
+usage:
+
+from the import expect
+import theeasytype
+
+expect.use(theeasytype)
+
+expect(1).to.be.int
+expect(1.1).to.be.float
+expect("").to.be.str
+expect({}).to.be.dict
+expect([]).to.be.list
+expect(()).to.be.tuple
+expect(set()).to.be.set
+"""
+
 def _dict(self):
     return self.a(dict)
 
