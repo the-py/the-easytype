@@ -4,7 +4,7 @@ from the import *
 the.use(theeasytype)
 
 
-class TestTheFs(unittest.TestCase):
+class TestTheEasytype(unittest.TestCase):
     def setUp(self):
         self.r = self.assertRaises
         self.true = self.assertTrue
