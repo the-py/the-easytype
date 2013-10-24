@@ -2,6 +2,8 @@
 
 An assertion lib for [the](http://the-py.github.io/the/) to assert basic type.
 
+http://the-py.github.io/the-easytype
+
 [![Build Status](https://travis-ci.org/the-py/the-easytype.png)](https://travis-ci.org/the-py/the-easytype)
 tested on 2.7, 3.2, 3.3
 
