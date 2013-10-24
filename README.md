@@ -1,6 +1,6 @@
 # python basic types better assertion
 
-An assertion lib for `the` to assert basic type.
+An assertion lib for [the](http://the-py.github.io/the/) to assert basic type.
 
 [![Build Status](https://travis-ci.org/the-py/the-easytype.png)](https://travis-ci.org/the-py/the-easytype)
 tested on 2.7, 3.2, 3.3
