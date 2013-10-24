@@ -7,7 +7,7 @@ http://the-py.github.io/the-easytype
 [![Build Status](https://travis-ci.org/the-py/the-easytype.png)](https://travis-ci.org/the-py/the-easytype)
 tested on 2.7, 3.2, 3.3
 
-## API
+# API
 * `int`
 * `float`
 * `str`
@@ -16,7 +16,7 @@ tested on 2.7, 3.2, 3.3
 * `tuple`
 * `set`
 
-## Usage
+# Usage
 ```python
 from the import expect
 import theeasytype
