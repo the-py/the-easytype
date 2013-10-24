@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>The-easytype by the-py</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/the-py/the-easytype">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>The-easytype</h1>
+            <h2>assert python basic types.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/the-py/the-easytype/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/the-py/the-easytype/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a name="python-basic-types-better-assertion" class="anchor" href="#python-basic-types-better-assertion"><span class="octicon octicon-link"></span></a>python basic types better assertion</h1>
+
+<p>An assertion lib for <a href="http://the-py.github.io/the/">the</a> to assert basic type.</p>
+
+<p><a href="http://the-py.github.io/the-easytype">http://the-py.github.io/the-easytype</a></p>
+
+<p><a href="https://travis-ci.org/the-py/the-easytype"><img src="https://travis-ci.org/the-py/the-easytype.png" alt="Build Status"></a>
+tested on 2.7, 3.2, 3.3</p>
+
+<h1>
+<a name="api" class="anchor" href="#api"><span class="octicon octicon-link"></span></a>API</h1>
+
+<ul>
+<li><code>int</code></li>
+<li><code>float</code></li>
+<li><code>str</code></li>
+<li><code>dict</code></li>
+<li><code>list</code></li>
+<li><code>tuple</code></li>
+<li><code>set</code></li>
+</ul><h1>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<div class="highlight highlight-python"><pre><span class="kn">from</span> <span class="nn">the</span> <span class="kn">import</span> <span class="n">expect</span>
+<span class="kn">import</span> <span class="nn">theeasytype</span>
+
+<span class="n">expect</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="n">theeasytype</span><span class="p">)</span>
+
+<span class="n">expect</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="o">.</span><span class="n">be</span><span class="o">.</span><span class="n">int</span>
+<span class="n">expect</span><span class="p">(</span><span class="mf">1.1</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="o">.</span><span class="n">be</span><span class="o">.</span><span class="n">float</span>
+<span class="n">expect</span><span class="p">(</span><span class="s">""</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="o">.</span><span class="n">be</span><span class="o">.</span><span class="n">str</span>
+<span class="n">expect</span><span class="p">({})</span><span class="o">.</span><span class="n">to</span><span class="o">.</span><span class="n">be</span><span class="o">.</span><span class="n">dict</span>
+<span class="n">expect</span><span class="p">([])</span><span class="o">.</span><span class="n">to</span><span class="o">.</span><span class="n">be</span><span class="o">.</span><span class="n">list</span>
+<span class="n">expect</span><span class="p">(())</span><span class="o">.</span><span class="n">to</span><span class="o">.</span><span class="n">be</span><span class="o">.</span><span class="n">tuple</span>
+<span class="n">expect</span><span class="p">(</span><span class="nb">set</span><span class="p">())</span><span class="o">.</span><span class="n">to</span><span class="o">.</span><span class="n">be</span><span class="o">.</span><span class="n">set</span>
+</pre></div>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/the-py">the-py</a> can be found on <a href="https://github.com/the-py/the-easytype">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
